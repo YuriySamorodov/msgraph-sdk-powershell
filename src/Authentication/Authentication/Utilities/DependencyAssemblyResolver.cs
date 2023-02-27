@@ -16,9 +16,12 @@ namespace Microsoft.Graph.PowerShell.Authentication.Utilities
         {
             { "Azure.Core", new Version("1.28.0") },
             { "Azure.Identity", new Version("1.8.2") },
+            { "Azure.Identity.BrokeredAuthentication", new Version("1.0.0") },
             { "Microsoft.Bcl.AsyncInterfaces", new Version("6.0.0") },
             { "Microsoft.Graph.Core", new Version("2.0.15") },
             { "Microsoft.Identity.Client", new Version("4.50.0") },
+            { "Microsoft.Identity.Client.Broker", new Version("4.47.2") },
+            { "Microsoft.Identity.Client.NativeInterop", new Version("0.13.0")},
             { "Microsoft.Identity.Client.Extensions.Msal", new Version("2.26.0") },
             { "Microsoft.IdentityModel.Abstractions", new Version("6.27.0") },
             { "Microsoft.IdentityModel.JsonWebTokens", new Version("6.27.0") },
